@@ -1,0 +1,33 @@
+form {
+    max-width: 800px;
+    min-height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.correo {
+    border-color: red;
+}
+
+.nombre {
+    border-color: red;
+}
+fieldset {
+    background-color: rgb(207, 204, 204);
+    padding: 1rem;
+}
+fieldset:hover {
+    background-color: grey;
+}
+fieldset:first-child {
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+}
+fieldset:nth-child(12) {
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+}

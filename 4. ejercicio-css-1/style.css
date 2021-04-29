@@ -1,0 +1,57 @@
+#provincias :nth-child(4) {
+    background-color: rgba(0, 0, 255, 0.918);
+}
+li:nth-child(odd) {
+    text-decoration: underline green;
+}
+
+.lista li {
+    display: inline-block;
+    margin: 10px;
+}
+#provincias li:first-child::after {
+    content: '\01F600';
+}
+#provincias li:nth-child(2)::after {
+    content: '\01F603';
+}
+#provincias li:nth-child(3)::after {
+    content: '\01F923';
+}
+#provincias li:nth-child(4)::after {
+    content: '\01F643';
+}
+
+.lista li:first-child::after {
+    content: '\01F601';
+}
+
+.lista li:nth-child(2)::after {
+    content: '\01F642';
+}
+
+.lista li:nth-child(3)::after {
+    content: '\01F605';
+}
+
+.lista li:nth-child(4)::after {
+    content: '\01F606';
+}
+
+.lista li:nth-child(5)::after {
+    content: '\01F602';
+}
+.lista li:nth-child(6)::after {
+    content: '\01F604';
+}
+.lista li:nth-child(4) {
+    text-transform: uppercase;
+    font-size: 150%;
+}
+#provincias li {
+    list-style-type: lower-roman;
+}
+
+#provincias :nth-child(2) {
+    list-style: outside;
+}
