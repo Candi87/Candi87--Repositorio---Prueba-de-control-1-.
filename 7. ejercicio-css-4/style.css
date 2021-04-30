@@ -33,7 +33,7 @@ h1 {
 }
 .contenedor .heroe:hover {
     transform: scale(1.12);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0);
 }
 .contenedor .heroe .persona {
     margin-top: 20px;
