@@ -70,3 +70,16 @@ h1 {
 .lista li:last-of-type img {
     margin-right: 0px;
 }
+@keyframes start {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.heroe {
+    animation-name: start;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}

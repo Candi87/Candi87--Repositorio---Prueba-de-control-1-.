@@ -2,43 +2,53 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
 
+    margin-top: 0;
+    padding: 25px;
+}
 h1 {
-    font-size: 6rem;
+    font-size: 3rem;
 }
 h2 {
-    font-size: 4rem;
     font-weight: normal;
-}
-h3 {
-    font-size: 3rem;
-    color: grey;
-}
-p {
     font-size: 2rem;
 }
-header {
-    color: white;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
-    min-width: 510px;
-}
-article {
+
+img {
+    display: block;
+    width: 370px;
+    float: none;
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
-    min-width: 400px;
-    padding: 100px;
 }
-form {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;
-    min-width: 400px;
-    padding: 100px;
+h3 {
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+article,
+p {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+form {
+    text-align: left;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+input {
+    display: block;
+    width: 90%;
+    height: 40px;
+    background-color: rgb(111, 111, 111);
+    border: 0;
+    margin: 15px;
+}
 button {
     background-color: black;
     color: white;
@@ -47,22 +57,50 @@ button {
     padding-right: 30px;
     padding-left: 30px;
     margin-top: 50px;
-}
-img {
-    padding: 10px;
-    margin: 10px;
-    float: right;
-    width: 400px;
-}
-input {
-    display: block;
-    width: 100%;
-    height: 40px;
-    background-color: rgb(207, 200, 200);
+    margin-bottom: 100px;
 }
 textarea {
-    width: 100%;
+    width: 90%;
     height: 200px;
-    background-color: rgb(207, 200, 200);
+    background-color: rgb(111, 111, 111);
     text-align: left;
+    border: 0;
+    margin: 15px;
+    margin-right: 15px;
+}
+footer {
+    margin-left: 15px;
+}
+@media (min-width: 700px) {
+    header {
+        text-align: left;
+        padding: 60px;
+    }
+    img {
+        float: right;
+        width: 300px;
+        height: 300px;
+    }
+    article,
+    form {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+        min-width: 400px;
+        padding-top: 50px;
+    }
+    h1 {
+        font-size: 6rem;
+    }
+    h2 {
+        font-size: 4rem;
+        font-weight: normal;
+    }
+    h3 {
+        font-size: 3rem;
+        color: grey;
+    }
+    p {
+        font-size: 2rem;
+    }
 }
